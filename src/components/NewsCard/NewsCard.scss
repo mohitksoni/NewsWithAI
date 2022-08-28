@@ -1,0 +1,65 @@
+.app__newsCard{
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1rem;
+    border-radius: 1rem;
+    width: 300px;
+    transition: all 0.3s ease-in-out;
+
+    .app__newsCard-img{
+        width:100%;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    .app__newsCard-content{
+        padding: 1rem 0.5rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100%;
+
+        .middle_text{
+            flex: 1;
+        }
+
+        .app__newsCard-card{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .app__newsCard-card-bottom{
+            width: 100%;
+            height: 15px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            a{
+                text-decoration: none;
+                p{
+                    font-weight: 600;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+    &:hover{
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+        transform: scale(1.05);
+    }
+}
+.h-text2{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--black-color);
+    text-transform: capitalize;
+}

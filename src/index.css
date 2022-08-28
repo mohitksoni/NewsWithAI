@@ -1,0 +1,27 @@
+#root html body {
+    height: 100%;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+:root {
+    --font-base: "DM Sans", sans-serif;
+  
+    --primary-color: #edf2f8;
+    --secondary-color: #0a18b5;
+    --black-color: #030303;
+    --lightGray-color: #e4e4e4;
+    --gray-color: #6b7688;
+    --brown-color: #46364a;
+    --white-color: #ffffff;
+  }
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
